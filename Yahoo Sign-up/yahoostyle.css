@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Yahoo Sans','Helvetica Neue',Helvetica,Arial;
+}
+#mainPage{
+	display: flex;
+	justify-content: center;
+	background-color: whitesmoke;
+		
+}
+
+#mainPageLoader{
+	display: block;
+}
+
+#navLogo{
+	
+}
+
+#helpLink a{
+	text-decoration: none;
+	color: #188FFF;
+}
+.yLogo{
+	/* width: 36px; */
+	height: 36px;
+}
+
+#signInwrapper{
+	/* border: .1rem solid black; */
+	background-color: white;
+	width: 23%;
+	padding: 25px;
+	height: 60vh;
+	margin-top: 15px;
+	/* box-shadow: 2px 2px 0 2px; */
+	
+}
+
+#yahooLogo{
+	margin: 0 auto;
+	/* border: .1rem solid brown; */
+	width: 50%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.yahooLogo{
+	height: 27px;
+	/* margin-top: 20px; */
+}
+
+.textArea #upperText {
+	/* border: .1rem solid green; */
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.textArea #lowerText{
+	text-align: center;
+	font-size: 15px;
+	font-weight:350;
+}
+
+#focusPage{
+	display: flex;
+	background-color: whitesmoke;
+	height: 85vh;
+}
+
+#navBar{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	margin: 30px;
+}
+
+#wrapper{
+	background-color: white;
+	width: 25%;
+	border: .1rem solid grey;
+	text-align: center;
+	margin: 30px;
+	padding: 20px;
+}
+
+#yahooFont{
+	color: rgb(89, 29, 144);
+}
+
+/* #continueBtn{
+	background-color: #188FFF;
+	margin: 0 auto;
+	max-width: 60%;
+	
+	border-radius: 12px;
+	/* padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 40px;
+	padding-right: 40px; */
+} */
+
+
+
+#continueBtn:hover{
+	background-color: #1262ad;
+}
+
+#btn{
+	
+	width: 80%;
+	background-color: #188FFF;
+	margin: 0 auto;
+	font-size: 1rem;
+	color: white;
+	border: 0;
+	border-radius: 12rem;
+	padding: .5rem;
+	/* padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 40px;
+	padding-right: 40px; */
+}
+
+
+
+#nameField, #email, #pass, #birthYear{
+	border: 0;
+	border-bottom: 1px solid gray;
+	outline: none;
+}
+
+#continueBtn{
+	margin: .4rem auto;
+}
+
+#controls{
+	margin-top: 1rem;
+}
+
+#icons{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* border: .1rem solid blue; */
+	
+
+}
+
+#chrome, #mailer{
+	border: .1rem solid black;
+	border-radius: 12rem;
+	width: 40%;
+	margin: 1rem auto;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	/* padding: 1rem 2rem;
+	margin: 1rem auto; */
+	
+	
+}
+
+#chrome{
+	background: radial-gradient(red, yellow, green, blue);
+	color: white;
+}
+
+form{
+	/* border: .1rem solid green; */
+}
+
+form input{
+	border:none;
+	border-bottom: .1rem solid gray;
+	width: 100%;
+}
+form button{
+	width: 100%;
+	border-radius: 19px;
+	padding: 9px 0;
+	background-color: #188FFF;
+	color: white;
+	border: none;
+	font-size: 0.5cm;
+}
+
+#focusPage>.textArea{
+	width: 65%;
+}
+
+#links{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+#links a{
+	text-decoration: none;
+	color: #188FFF;
+}
+
+#checkSignedin{
+	
+}
+
+#createBtn>button{
+	width: 100%;
+	border-radius: 20px;
+	color: #188FFF;
+	font-size: 0.5cm;
+	border: .1rem solid #188FFF;
+	background-color: white;
+	padding: 9px 2px;
+}
+
+#focusPage>.textArea{
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+#footer{
+	text-align: center;
+	font-size: .258cm;
+	padding: 5px 0px;
+}
+#footer a{
+	text-decoration: none;
+	color: #188FFF;
+
+}

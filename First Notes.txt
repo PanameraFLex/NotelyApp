@@ -1,0 +1,105 @@
+TCP:   Transmission Control Protocol
+
+founder: Tim Barnas Lee
+
+
+SHIFT !  CREATES THE FUNDAMENTALS OF HTML 
+HTML:5 ALSO CREATES FUNDAMENTALS
+
+XML:  Extensible markup language  
+XHMTL :  Extenible hypertext markup language
+
+UTF: Unicode Trancode Format 
+
+&copy;  gives copyright 
+
+div#wrapper   ##shortcut for creating div and id
+
+NON SEMANTIC :  DIV AND SPAN TAGS 
+
+EVERY OTHER TAG IS SEMANTIC 
+
+h1 = Largest Font  HEADING 1
+h6 = Smallest Font   HEADING 6
+
+
+COMMENT OUT IN HTML <!-- hh -->   cmd + /
+
+Inline Tags:  { <i>, <strong>, <b>, <underline>, <em>, <mark>, <s>, <u>   }
+
+IMG tag has src attribute 
+
+video tag has : controls, autoplay, muted, loop attributes 
+
+
+CSS was designed by Harkon Wium Lise
+
+Inline Styling {Pass attributes in HTML, they have KEY:VALUE properties}
+Internal Styling {Styling can be called in any part of the HTML body using <style> tag } 
+External 
+
+
+/// FORM ///
+attributes>>>
+	action:   Where you want the data to be processed 
+	method: GET/POST/(Diaolgue)
+
+/// FORM VALIDATION ///
+maxlength
+minlength
+
+
+USE LEGENDS IN FIELDSET
+
+
+INPUT:  SEMANTIC TAG with Types
+
+
+///TABLES ///
+caption
+thead {tr, th}
+tr 
+th 
+tbody{ tr, td}
+
+
+////CSS///
+1. Selectors:
+ID: 
+TAG:  h3, table, div
+CLASS:
+
+2. Cascade
+
+
+DECLARATION = Key, Properties
+
+
+DOM!!!
+Use border box to make page responsive 
+margin: 0;
+
+
+PSEUDO-ELEMENT SELECTOR:
+button[type="submit"]{
+	background-color: #fffff;
+}
+
+
+VH:   Viewport of screen 
+use 10vh  = 10
+
+
+Use rem for text on script
+Default height of screen is 100vh
+
+
+ABSOLUTE UNITS = px, cm, in, length
+RELATIVE UNITS = %, em, rem, points [rem applies to Root element]  [em applies to parent element]
+
+
+Position:  Relative, Fixed, Static, Sticky, ABSOLUTE
+
+Y-AXIS:   VERTICAL 
+X-AXIS:  HORIZONTAL 
+Z-AXIS:  DEPTH

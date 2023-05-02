@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="yahoostyle.css">
+	<title>Yahoo | Create profile </title>
+	<script src="https://kit.fontawesome.com/8fff0b6211.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="mainPage">
+		<div id="wrapper">
+			<form action="processing.js" method="POST" >
+				<h2 id="yahooFont" >yahoo!</h2>
+				<br>
+				<h3>Create a Yahoo account</h3>
+				<br>
+				<br>
+				<i class="fas fa-2x fa-address-book"></i><input type="text" name="nameField" id="nameField" value="Full name" />
+				<br>
+				<br>
+				<i class="fas fa-envelope"></i><input type="text" name="email" id="email" value="New Yahoo email" />
+				<br>
+				<br>
+				<i class="fas fa-lock"></i><input type="password" name="pass" id="pass" value="" placeholder="Create password" />
+				<br>
+				<br>
+				<i class="fas fa-calendar-days"></i><input type="number" name="birthYear" id="birthYear"  placeholder="YYYY" />
+				<br>
+				<br>
+				<div id="guide">
+					<p>By clicking "Continue", you agree to the <a href="https://google.com/">Terms</a> and acknowledge to <a href="https://linkedin.com/">Privacy Policy</a></p>
+				</div>
+				<div id="controls">
+					<div id="continueBtn" ><button type="submit" id="btn"  >Continue</button></div>
+					<p>or create an account with </p>
+
+					<div id="icons">
+						<div id="chrome">
+							<i class="fab fa-2x fa-google" ></i>
+						</div>
+						<div id="mailer">
+							<p><i class="fas fa-2x fa-envelope"></i>My Email </p>
+						</div>
+					</div>
+					
+					<p>Already have an account? <a href="Signin.html">Sign in</a></p>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>

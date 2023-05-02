@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#wrapper{
+	display: grid;
+}
+#header{
+	width: 100%;
+	height: 15vh;
+	border: .1rem solid red;
+}
+#mainPage{
+	display: grid;
+	width: 100%;
+	padding: 5px;
+	border: .1rem solid green;
+}
+#leftPanel{
+	width: 30%;
+	height: 75vh;
+	border: .1rem solid black;
+}
+#centerConsole{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border: .1rem solid yellow;
+	height: 20vh;
+	width:;
+}
+#rightPanel{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border: .1rem solid blue;
+	
+}

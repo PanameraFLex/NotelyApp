@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flexbox Understanding</title>
+</head>
+<body>
+	<style>
+		*{
+			margin: 0;
+		}
+		header{
+			display: flex;
+			flex-direction: row;
+	    	justify-content: space-between;
+			border: 1px solid pink;
+		}
+		figure{
+			/* border:1px solid brown; */
+		}
+		ul{
+			width: 20%;
+			/* border:1px solid green; */
+			display: flex;
+			justify-content: space-around;
+		}
+		ul li:nth-child(2) a{
+			color: red;
+		}
+
+		a{
+			text-decoration: none;
+		}
+		div{
+			/* border: 1px solid black; */
+		}
+	</style>
+
+	<header>
+		<figure>
+			<img src="yahoo_logo.png" alt="samplelogo">
+		</figure>
+		<ul type="none" >
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Products</a></li>
+		</ul>
+		<div id="controls">
+			<button>Next</button>
+
+		</div>
+	</header>
+	
+</body>
+</html>

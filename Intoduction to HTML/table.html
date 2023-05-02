@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Table</title>
+	<script src="https://kit.fontawesome.com/8fff0b6211.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="pageTable">
+		<table border="1" cellspacing="0" cellpadding="10">
+			<caption>PROGRAMMING CLASS TIMETABLE</caption>
+			<thead>
+				<tr>
+					<th>Days/Time</th>
+					<th>9:00 - 10:00</th>
+					<th>11:00 - 12:00</th>
+					<th>12:00 - 1:00</th>
+					<th>1:00 - 2:00</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Mon</th>
+					<td>Data Analytics</td>
+					<td>Basic HTML</td>
+					<td rowspan="5" id="flipBreak" >Break</td>
+					<td rowspan="2" >CSS</td>
+				</tr>
+				<tr>
+					<th>Tue</th>
+					<td colspan="2" class="cyber" >CyberSecurity</td>
+					<!-- <td>Break</td> -->
+					<!-- <td>CSS</td> -->
+				</tr>
+				<tr>
+					<th>Wed</th>
+					<td>UI/UX</td>
+					<td>Ethical Hacking</td>
+					<!-- <td>Break</td> -->
+					<td>Javascript</td>
+				</tr>
+				<tr>
+					<th>Thur</th>
+					<td rowspan="2" >Basic HTML</td>
+					<td>Data Analytics</td>
+					<!-- <td>Break</td> -->
+					<td class="cyber" >Cybersecurity</td>
+				</tr>
+				<tr>
+					<th>Fri</th>
+					<!-- <td>Basic HTML</td> -->
+					<td>UI/UX</td>
+					<!-- <td>Break</td> -->
+					<td>Javascript</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

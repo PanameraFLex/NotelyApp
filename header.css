@@ -1,0 +1,115 @@
+*{
+    margin:0;
+}
+header{
+   /* border: .1rem solid green; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: brown;
+   padding-left: 2vh;
+   padding-right: 2vh;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1rem dotted blue; */
+    width: 20%;
+}
+ul li > a{
+    text-decoration: none;
+    /* color: green; */
+} 
+ul li:nth-child(2) a{
+    /* border: .1rem solid red; */
+    color:red;
+}
+/* styling the main using flex and its properties */
+section{
+    /* border:.1rem ridge blue; */
+    display: flex;
+    column-gap: 2rem;
+    justify-content: space-around;
+	height: 70vh;
+	margin-top: 19vh;
+    /* align-items: center; */
+}
+article{
+    border: .1rem solid black;
+    flex:2;
+}
+aside{
+    border:.1rem double grey;
+    flex: 1;
+    background-color: grey;
+}
+#endNote{
+    /* background-color: black;
+    color:white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type=text], input[type=submit]{
+    line-height: 2;
+    height: 2rem;
+    outline: none;
+}
+input[type=submit]:is(:hover){
+    background-color: green;
+    color:white;
+}
+#quicks h3{
+    cursor: pointer;
+}
+#quicks:hover h3{
+    color:green;
+    text-decoration: underline;
+}
+ol{
+    list-style-type: none;
+}
+ol > li a{
+    text-decoration: none;
+}
+
+#quickslinks{
+	display: flex;
+	
+	/* justify-content: space-between; */
+}
+
+/* #quickslinks>li{
+	
+	justify-content: space-between;
+} */
+
+#quicks{
+	display: flex;
+	border: .1rem solid green;
+	/* justify-content: space-between; */
+}
+#newsFeeder{
+	border: .1rem solid grey;
+}
+
+#nothinghere{
+	border: 1px solid red;
+	height: 40vh;
+	width: 100%;
+	position: absolute;
+}
+
+#sampling{
+	background-color: yellow;
+	height: 50%;
+	width: 50%;
+	position: relative;
+	left: 5%;
+	top: 15%;
+}
