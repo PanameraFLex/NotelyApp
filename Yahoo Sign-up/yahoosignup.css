@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+}
+#header{
+	display: flex;
+	width: auto;
+	height: 15vh;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+#mainPage{
+	height: 85vh;
+	width: auto;
+}
+#signupPanel{
+	margin: 0 auto;
+	border: .1rem solid black;
+	width: 350px;
+}
+.logo img{
+	width: 90px;
+	height: 27px;
+	
+}
+form{
+	text-align: center;
+}
+input{
+	border: none;
+}
+.yahooEmailHolder{
+	display: inline;
+}

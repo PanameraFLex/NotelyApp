@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+}
+
+#FullPage{
+	width: 40vw;
+	height: 50vh;
+	border: .1rem solid black;
+	background-color: antiquewhite;
+	margin: 0 auto;
+	margin-top: 10%;
+	position: relative;
+}
+
+#Focusbox{
+	width: 30vw;
+	height: 10vh;
+	border-radius: 60px;
+	border: .5rem solid green ;
+	margin: 0 auto;
+	margin-top: 20%;
+	border-top-color: black;
+	border-bottom-color: blue;
+	border-left-color: brown;
+	border-right-color: crimson;
+	position: absolute;
+	transition: all .5s linear;
+}
+
+#Focusbox:hover{
+	background-color: darkslateblue;
+	/* transform: translateY(2rem); */
+	transform: translateX(4rem);
+}
+
+@keyframes identifier {
+	
+}

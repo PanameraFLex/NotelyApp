@@ -103,3 +103,13 @@ Position:  Relative, Fixed, Static, Sticky, ABSOLUTE
 Y-AXIS:   VERTICAL 
 X-AXIS:  HORIZONTAL 
 Z-AXIS:  DEPTH
+
+
+ANIMATION:
+
+
+ANIMATION: animation namme, animation duration, animation timing function, animation iteration count. 
+
+//// TO TARGET FIRST CHILD OF AN ELEMENT//---#textContainer p:first-child{}
+
+////TO TARGET nth-child/// .rotate>.box:nth-child(7){}

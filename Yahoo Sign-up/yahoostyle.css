@@ -35,7 +35,7 @@
 	height: 60vh;
 	margin-top: 15px;
 	/* box-shadow: 2px 2px 0 2px; */
-	
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
 }
 
 #yahooLogo{
@@ -50,6 +50,20 @@
 	/* margin-top: 20px; */
 }
 
+#textContainer{
+	width: 300px;
+	height: 300px;
+	/* border: .1rem solid yellow; */
+	padding-top: 40px;
+	padding-left: 200px;
+	padding-right: 80px;
+	text-align: left;
+	font-size: 20px;
+}
+#textContainer p:first-child{
+	font-weight: bold;
+}
+
 .textArea #upperText {
 	/* border: .1rem solid green; */
 	text-align: center;
@@ -62,7 +76,6 @@
 	font-size: 15px;
 	font-weight:350;
 }
-
 #focusPage{
 	display: flex;
 	background-color: whitesmoke;
