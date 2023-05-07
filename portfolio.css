@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	
+	
+}
+#logoBox img{
+	width: 6rem;
+	height: 6rem;
+}
+
+#fullPage{
+	width: 100%;
+	height: 100vh;
+	
+	background-color: #271d3b;
+	display: grid;
+}
+
+/*  #271d3b - dark purple theme
+	#2ebf91 - green
+	#8360c3 - purple
+*/
+
+#header{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 2rem 1rem 1rem;
+}
+#navLinks{
+	display: flex;	
+	gap: 1.5rem;
+	padding-top: 1rem;
+}
+#navLinks ul{
+	font-size: 1.5rem;
+	display: flex;
+	gap: 2rem;
+	color: rgb(106, 103, 103);
+}
+
+.clrCodeGreen{
+	color: #2ebf91;
+}
+.btn{
+	background-color: #271d3b;
+	border: .1rem solid rgb(106, 103, 103);
+	font-size: 1rem;
+	padding: .5rem;
+	font-family: monospace;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: #2ebf91;
+	color: #271d3b;
+}
+#sidlinksBar a{
+	color: antiquewhite;
+		
+}
+
+
+
+#sideLinks {
+	list-style-type: none;	
+}
+
+#sideLinks li{
+
+}
+
+#contentPage{
+	display: flex;
+}
+#focusPanel{
+	padding-left: 8rem;
+	padding-top: 0.6rem;
+	padding-bottom: 2rem;
+	padding-right: 14rem;
+}
+
+#sidlinksBar{
+	color: antiquewhite;
+	/* border: .1rem solid black; */
+}
+.monotyping{
+	font-family: monospace;
+}
+#focusPanel div:first-child{
+	font-size: 1.6rem;
+	/* color: rgb(106, 103, 103); */
+}
+#focusPanel div:nth-child(2){
+	font-size: 2.9rem;
+}
+#focusPanel div:nth-child(3){
+	font-size: 3.1rem;
+	color: rgb(211, 199, 199);
+}
+#focusPanel div:nth-child(4){
+	margin-top: .5rem;
+	margin-right: 25rem;
+	color: rgb(163, 151, 151);
+	font-size: 1.2rem;
+}
+
+#focusPanel div:nth-child(5){
+	border: .1rem solid #2ebf91;
+	margin-top: 2rem;
+	width: fit-content;
+	/* padding: 1rem 2rem; */
+	
+}
+#focusPanel a{
+	text-decoration: none;
+	font-family: monospace;
+	color:rgb(116, 108, 108);
+}
+
+.azurecolor{
+	color: azure;
+}
