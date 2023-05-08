@@ -31,6 +31,10 @@
 	gap: 1.5rem;
 	padding-top: 1rem;
 }
+#navLinks a{
+	text-decoration: none;
+	color: inherit;
+}
 #navLinks ul{
 	font-size: 1.5rem;
 	display: flex;
@@ -62,9 +66,12 @@
 
 #sideLinks {
 	list-style-type: none;	
+	
 }
 
 #sideLinks li{
+	margin-bottom: 1rem;
+	
 
 }
 
@@ -81,6 +88,8 @@
 #sidlinksBar{
 	color: antiquewhite;
 	/* border: .1rem solid black; */
+	height: 20vh;
+	margin-top: 5rem;
 }
 .monotyping{
 	font-family: monospace;
@@ -118,4 +127,11 @@
 
 .azurecolor{
 	color: azure;
+}
+
+#lineBox{
+	border-left: .1rem solid red;
+	height: 305px;
+	position: absolute;
+	left: 3.3%;
 }
