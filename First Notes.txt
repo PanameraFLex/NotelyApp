@@ -1,7 +1,13 @@
 TCP:   Transmission Control Protocol
 
 founder: Tim Barnas Lee
+founder of CSS:  Harkon Wium Liee
+Founder of JS:  Bredan Eich
+NETSCAPE
+url:  uNIVERSAL RESOURCE LOCATOR
 
+
+SEARCH ENGINE: Interpreter, Crawler, Index
 
 SHIFT !  CREATES THE FUNDAMENTALS OF HTML 
 HTML:5 ALSO CREATES FUNDAMENTALS
@@ -113,3 +119,35 @@ ANIMATION: animation namme, animation duration, animation timing function, anima
 //// TO TARGET FIRST CHILD OF AN ELEMENT//---#textContainer p:first-child{}
 
 ////TO TARGET nth-child/// .rotate>.box:nth-child(7){}
+
+SASS:  Synthetic awesome style sheet  Pre-Processor
+Tailwind:  Post-CSS Processor  //  Bootstrap
+
+MERN:  MongoDB, Express JS, REACT, Node JS
+
+
+Javascript Documentation: BABBEL
+ECMASCRIPT 
+
+DATATYPES: Primitive: Array, Object//   Reference: String, Number, Boolean, Undefined, Null
+
+alert()   This is a window element
+
+Var{Can be reassigned and redeclared}, Let{can only be reassigned}, Const{can not be either}
+
+
+typeof()
+
+Array is a collection of items in form of index and value.  [Two types of Array Methods]=Literal Method, Constructor Method= new Array('basin', 'food', 'water')
+Object is a collection of properties in form of key and value. {}
+
+//
+
+let person = {
+	'name':'john', 
+	'age': 23,
+	'country':'Libya'
+}
+
+== checks for value 
+=== checks for data type

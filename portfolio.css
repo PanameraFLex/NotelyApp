@@ -26,6 +26,10 @@
 	justify-content: space-between;
 	padding: 1rem 2rem 1rem 1rem;
 }
+#navLinks li{
+	list-style-type:none;
+}
+
 #navLinks{
 	display: flex;	
 	gap: 1.5rem;

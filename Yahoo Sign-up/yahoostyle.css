@@ -217,7 +217,7 @@ form button{
 	
 }
 
-#createBtn>button{
+#createBtn button{
 	width: 100%;
 	border-radius: 20px;
 	color: #188FFF;
