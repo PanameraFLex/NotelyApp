@@ -9,7 +9,7 @@
 }
 
 #fullPage{
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	
 	background-color: #271d3b;
@@ -141,5 +141,73 @@
 }
 
 @media (max-width: 1250px){
+	#fullPage{
+		width: 100vw;
+		/* height: 100vh; */
+		box-sizing: border-box;
+		overflow: auto;
+		/* border: .1rem solid yellow; */
+	}
+	#logoBox{
+		display: inline;
+	}
+	#logoBox img{
+		width: 3.5rem;
+		height: 3.5rem;
+	}
 	
+	#header{
+		width: 100vw;
+		display: flex;
+		padding: 0,0,0,0;
+		/* border: .1rem solid green; */
+	}
+	#navLinks{
+		/* position: relative; */
+		/* border: .1rem solid gold; */
+		width: auto;
+		padding-top: 0;
+		/* gap: 0; */
+
+	}
+	#contentPage{
+		width: 100vw;
+	}
+	#navLinks ul{
+		display: inline;
+	}
+
+	#sidlinksBar{
+		margin-top: 5rem;
+		/* border: .1rem solid gray; */
+	}
+
+	#focusPanel{
+		/* border: .1rem solid gray; */
+		padding-left: 1rem;
+		width: 80%;
+	}
+
+	#focusPanel div:first-child{
+		font-size: 1rem;
+	}
+
+	#focusPanel div:nth-child(2){
+		font-size: 1.9rem;
+	}
+
+	#focusPanel div:nth-child(3){
+		font-size: 2.1rem;
+	}
+
+	#focusPanel div:nth-child(4){
+		font-size: 1rem;
+		margin-right: 2rem;
+	}
+
+	#lineBox{
+		display: none;
+	}
+	
+
 }
