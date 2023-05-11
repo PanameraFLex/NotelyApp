@@ -57,7 +57,7 @@ input{
 	border: none;
 	/* background-color: bisque; */
 }
-.btn:{
+.btn:hover{
 	background-color: rgb(34, 32, 29);
 	color: whitesmoke;
 }

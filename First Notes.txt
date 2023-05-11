@@ -151,3 +151,23 @@ let person = {
 
 == checks for value 
 === checks for data type
+
+
+
+LOOPS:
+1. Entry control LOOPS
+2. Exit control loops 
+
+
+FOR:
+INITIATION, CONDITION , INCREMENT/DECEREMENT
+
+parseInt converts string to Integer
+
+.pop()  // This removes last item of an Array
+.shift()  /// removes first item in an array 
+.unshift() /// inserts new element inside an array at beginning 
+.push() ///  inserts new elements inside an array at end 
+
+
+ARRAY METHOD: SLICE, SPLICE, FILTER, MAP 
