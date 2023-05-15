@@ -133,7 +133,7 @@ DATATYPES: Primitive: Array, Object//   Reference: String, Number, Boolean, Unde
 
 alert()   This is a window element
 
-Var{Can be reassigned and redeclared}, Let{can only be reassigned}, Const{can not be either}
+Var{Can be reassigned and redeclared} also backward compatible, Let{can only be reassigned}, Const{can not be either}
 
 
 typeof()
@@ -168,6 +168,29 @@ parseInt converts string to Integer
 .shift()  /// removes first item in an array 
 .unshift() /// inserts new element inside an array at beginning 
 .push() ///  inserts new elements inside an array at end 
+.join() /// joins elements together to 1 string value 
+.splice() ///  used to slice an array, leaving two arrays.  1 with the 		sliced out items and another with the updated items of the original array. can take 3 parameters.   Array.splice(1, 5, "yu")//   starts at index 1, removes 5 characters and replaces with "yu"
+.slice() /// slices an array and returns the updated items in the array.  array.slice(6)  // starts slicing from the 6th character
+.indexOf() // finds the array index number[] of an array 
+.reverse() /// reverses the order of the array items 
+
+.every() /// uses => ARROW FUNCTION to compare an item to items in an array 
+array.every((x) => x > 6)   Returns BOOLEAN value
+
+.includes() // checks if an item is present in an array. Returns boolean value 
+.map() // performs operation on individual items in an array 
+array.map((n) => n*2);
+
+.filter() // filters through an array to run an operation
+array.filter((n)=> n%2===0); //  Filters through the array andf runs the modulus operation.
+
+.find() // Finds for a particular item in an array.
+array.find((n)=> n === 7)  // Finds first item in array that matches 7. Returns the item.
 
 
 ARRAY METHOD: SLICE, SPLICE, FILTER, MAP 
+
+
+WINDOW OBJECT MODEL // alert(), prompt(), confirm()
+BROWSER OBJECT MODEL 
+DOCUMENT OBJECT MODEL
