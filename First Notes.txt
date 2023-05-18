@@ -186,7 +186,8 @@ array.filter((n)=> n%2===0); //  Filters through the array andf runs the modulus
 
 .find() // Finds for a particular item in an array.
 array.find((n)=> n === 7)  // Finds first item in array that matches 7. Returns the item.
-
+.includes() // checks if a variable exists in an array or list. 
+[...users]  /// this mirrors the items of an array.   Spread Operator
 
 ARRAY METHOD: SLICE, SPLICE, FILTER, MAP 
 
@@ -194,3 +195,4 @@ ARRAY METHOD: SLICE, SPLICE, FILTER, MAP
 WINDOW OBJECT MODEL // alert(), prompt(), confirm()
 BROWSER OBJECT MODEL 
 DOCUMENT OBJECT MODEL
+

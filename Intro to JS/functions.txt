@@ -1,0 +1,19 @@
+function: Line of code stored in a name. can be recalled 
+TYPES:  Named Function 
+
+REGEX/// 
+Used in form validation 
+Used in search engines
+pattern = /\d/   [This would search for number and value]
+\S [this is for space]
+\s match eveything apart from whitespace 
+[a-z]  /// This is called Range  
+i /// Ignores CASE SENSITIVITY
+/^MS/  =  match anything that begins with  .   CARET 
+/^MS$/ = Match anything that begins and ends with.  
+/$/ = Match anything that ends with . 
+\w  = Match eveyry alphanumerical
+\W = Match every non-alphanumerical
+/[1-8]{2,}/ = multipliers.  Matches expressions that contain [1], [8] and has 2 or more characters 
++ = from 1 match above
+? = from 0 match above

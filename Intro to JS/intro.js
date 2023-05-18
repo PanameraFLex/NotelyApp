@@ -191,13 +191,26 @@ let parolee = ['scorpion', 'Ink', 'Lion', 'Oil']
 console.log(parolee.join("+"))
 
 
-let nameHolder=	prompt('Enter Your name: ').trim()
-	if (nameHolder.length >2){
-		alert(`Welcome ${nameHolder}`)
-	}
-	else if (nameHolder.length > 0 && nameHolder.length < 2){
-		alert(`${nameHolder} is too short`)
-		prompt('Try your name again: ')
-	}
-	else prompt('You need to enter a name: ')
-console.log(nameHolder)
+// let nameHolder=	prompt('Enter Your name: ').trim()
+// 	if (nameHolder.length >2){
+// 		alert(`Welcome ${nameHolder}`)
+// 	}
+// 	else if (nameHolder.length > 0 && nameHolder.length < 2){
+// 		alert(`${nameHolder} is too short`)
+// 		prompt('Try your name again: ')
+// 	}
+// 	else prompt('You need to enter a name: ')
+// console.log(nameHolder)
+
+
+
+let collectedInfo = [];
+// let name = prompt('What is your name? ');
+// let age = prompt('Enter your age');
+// let title = prompt('Single or Married?');
+
+let collectInfo = [name, age, title]
+console.log((collectInfo))
+let Jailtime = '90seconds';
+collectInfo = collectInfo.push(Jailtime)
+console.log(collectInfo)
