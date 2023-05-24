@@ -49,13 +49,70 @@
 
 // create a program that reads files on a page, let Function 1 extract regex from the page, function 2 would split the extracts
 
-function scout(x){        // defines the function 
-	let pattern = /.com$/i;     // this is regex   matching any character that ends with .com
-	x = prompt(`Input a number: `);    // x prompts for user's input 
-	let result = scout(x)    // declaring the result of the search
-	if (pattern.test(x)){
-		alert(result)
-	}else{
-		alert(`${x} is sorted with no matches`)
-	}
+// function scout(x){        // defines the function 
+// 	let pattern = /.com$/i;     // this is regex   matching any character that ends with .com
+// 	if (pattern.test(x)){
+// 		return true
+// 	}else{
+// 		return false
+// 	}
+// }
+//  while(true){
+// 	x = prompt(`Enter your raw emails`).split()
+//  }
+
+//  let money = "hundred";
+//  let kudi = "thousand"
+//  alert("apple" > "pineapple")
+
+
+// let hour = prompt(`Enter time`);
+// let greeting;
+// if (hour<18){
+// 	alert(`good afternoon, the time is ${hour}`)
+// }else{
+// 	alert(`Good night, it is past your bedtime`)
+// }
+
+// alert( 1 && 2 && 3 );
+
+// function profile (fname, age, sex, address){
+// 	fname = 'Martins';
+// 	age = 46;
+// 	sex = 'Male';
+// 	address = '87, Ilupeju Street';
+// 	console.log(`My name is ${fname}, I am a ${age} year old ${sex} and i live at ${address} in Lagos`)
+// }
+
+// profile()
+
+
+
+// ///// ANONYMOUS FUNCTION ////
+// (function(){
+// 	console.log('Welcome World')
+// }())
+
+
+
+// (function(arithmetics){
+// 	console.log(`${arithmetics} is awesome`)
+// }('Maths such as Further maths'))
+
+
+/// ARROW FUNCTION ///   SIMILAR TO ANONYMOUS, BUT NO FUNCTION NAME AND FUNCTION IS CALLED OUTSIDE OF CODE
+(()=>{
+	console.log('amazing')
+})()
+
+// this.   points to function 
+
+function Person(fname, age, height){
+	this.fname = fname
+	this.age = age
+	this.height = height
 }
+
+let person1 = new Person('Jamiu', 29, '78Ft')
+let person2 = new Person('Johnson', 28, '34Ft')
+	console.log(person1, person2)

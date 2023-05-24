@@ -1,5 +1,5 @@
 function: Line of code stored in a name. can be recalled 
-TYPES:  Named Function 
+TYPES:  Named Function // Anonymous Function 
 
 REGEX/// 
 Used in form validation 
@@ -17,3 +17,7 @@ i /// Ignores CASE SENSITIVITY
 /[1-8]{2,}/ = multipliers.  Matches expressions that contain [1], [8] and has 2 or more characters 
 + = from 1 match above
 ? = from 0 match above
+
+
+
+JAVASCRIPT can get elements from HTML by: Name, ID, Class, Query Selector, tag name

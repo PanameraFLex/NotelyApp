@@ -82,3 +82,20 @@ a{
 	text-decoration: none;
 	color: #188FFF;
 }
+
+/* .error .password-error{
+	display: block;
+	transform: translateY(-20px);
+} */
+
+.error{
+	color: #af4242;
+	padding: 10px;
+	/* display: none; */
+	background-color: #fde8ec;
+}
+.success{
+	color: aliceblue;
+	padding: 10px;
+	background-color: green;
+}

@@ -173,6 +173,7 @@ parseInt converts string to Integer
 .slice() /// slices an array and returns the updated items in the array.  array.slice(6)  // starts slicing from the 6th character
 .indexOf() // finds the array index number[] of an array 
 .reverse() /// reverses the order of the array items 
+.charAt() //  returns the value of the string at the specified character index.  works like [9]
 
 .every() /// uses => ARROW FUNCTION to compare an item to items in an array 
 array.every((x) => x > 6)   Returns BOOLEAN value
@@ -196,3 +197,8 @@ WINDOW OBJECT MODEL // alert(), prompt(), confirm()
 BROWSER OBJECT MODEL 
 DOCUMENT OBJECT MODEL
 
+
+VAR IS GLOBAL SCOPE 
+LET IS LOCAL SCOPE
+
+ANONYMOUS FUNCTIONS ARE ALSO (IIFE) = Immediately Invoked Function Expression 
