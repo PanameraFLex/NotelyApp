@@ -77,9 +77,15 @@ let store = JSON.parse(localStorage.getItem('users'))   //Retrieving the element
 let data = []  // assigning data to an empty array. The array would contain objects eventually 
 if(store ==null || store == undefined){    //checking if users exist in local storage, and writing into the HTMl an error message
 	message.textContent = 'no user stored'
-}
+
 data.push({fname, email})    // adding the variables fname , email to the empty array of data 
 store = localStorage.setItem("users", JSON.stringify(data))  // Setting the stringified data into store in the form of key, Value 
+}else{
+	if (store.length>0){   // saving other users 
+		store.push({
+			fname, email})
+	}
+}
 
 
 // 3 step process
