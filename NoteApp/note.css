@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+form{
+	width: 50%;
+	margin: 0 auto;
+	border: .2rem dashed grey;
+}
+
+#contentBox{
+	width: 100%;
+}
+#contentTextArea{
+	width: 100%;
+}
+#info{
+	text-align: center;
+}
+
+.warning{
+	background-color: yellow;
+	color: red;
+}
+
+#controls{
+	display: flex;
+	justify-content: space-between;
+}
+
+#title input{
+	width: 100%;
+}
+
+#wrapper{
+	margin-top: 4rem;
+}
+
+.noteHeader, #noteLength{
+	text-align: center;
+	text-transform: capitalize;
+}

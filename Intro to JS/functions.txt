@@ -21,3 +21,18 @@ i /// Ignores CASE SENSITIVITY
 
 
 JAVASCRIPT can get elements from HTML by: Name, ID, Class, Query Selector, tag name
+
+
+
+
+NODES IN HTML 
+1. Element node  {Elements in HTML: div, span, i, h2, }
+2. 
+
+
+
+
+.textContent
+.innerHTML
+.innerText
+.appendChild
