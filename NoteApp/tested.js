@@ -84,4 +84,3 @@ viewButton.addEventListener('click', function(e){
     wapper.innerHTML += "</div>"
     //wapper.innerHTML = html_template
 })
-6667

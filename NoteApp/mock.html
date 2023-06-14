@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mock with Note App</title>
+	<link rel="stylesheet" href="mock.css">
+</head>
+<body>
+	<div id="wrapper" >
+		<div id="info"></div>
+		<form action="javascript:void()">
+			<fieldset>
+				<legend class="titleHolder" >Title</legend>
+				<input type="text" id="titleInput" title="title">
+			</fieldset>
+			<fieldset>
+				<legend>Note</legend>
+				<input type="text" id="noteContent" title="note" value="" >
+			</fieldset>
+			<fieldset>
+				<legend>Author</legend>
+				<input type="text" id="authorInput" title="author">
+			</fieldset>
+			<fieldset>
+				<legend>Controls</legend>
+				<div id="controls" >
+					<button type="button" onclick="saver()" >Save Note</button>
+					<button type="button" id="noteviewer" onclick="noteViewer()" >View Notes</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	
+	<script src="mock.js"></script>
+</body>
+</html>
