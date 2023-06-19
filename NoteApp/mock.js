@@ -57,28 +57,62 @@ function noteViewer(){
 		<input type="text" id="authorInput" title="author" value="${notesVault[i]['author']}" >
 	</fieldset>
 	<div id="controls" >
-					<button type="button" onclick="editor()">Edit Note</button>
-					<button type="button"  onclick="deleteNote()" >Delete Note</button>
+					<button type="button" onclick="editor(${notesVault[i]['timestamp']})">Edit Note</button>
+					<button type="button"  onclick="deleteNote(${notesVault[i]['timestamp']})" >Delete Note</button>
 				</div>
 				<br><br>`
 			}
 }
 
-function deleteNote(){
+function deleteNote(timestamp){
 	let notesVault = JSON.parse(localStorage.getItem('notes'))
 	for (let i =0; i<notesVault.length;i++){
-		if (notesVault[i]['timestamp']== 'timestamp'){
-			console.log('timestamp')
-		}else{
-			console.log('can not find it ')
+		if (notesVault[i]['timestamp'] == timestamp){
+			console.log(timestamp)
+			console.log(notesVault[i])
+			notesVault.splice(i, 1)
+			console.log(notesVault)
+			let informationHolder = document.querySelector('#info')
+			informationHolder.setAttribute('id', 'success')
+			informationHolder.innerHTML=`<h3>Note Deleted</h3>`
+			localStorage.setItem('notes', JSON.stringify(notesVault))
+			location.reload()
+
 		}
+		
 	}
 }
 
+function editor(timestamp){
+	let notesVault = JSON.parse(localStorage.getItem('notes'))
+	for (let i =0; i<notesVault.length;i++){
+		if(notesVault[i]['timestamp'] == timestamp){
+			console.log(timestamp)
+			// location.reload()
+			let noteHolder = document.querySelector('#wrapper')
+			noteHolder.innerHTML=`<fieldset>
+			<legend class="titleHolder">Title</legend>
+			<input type="text" id="titleInput" title="title" value="${notesVault[i]['title']}" >
+		</fieldset>
+		<fieldset>
+			<legend>Note</legend>
+			<input type="text" id="noteContent" title="note" value="${notesVault[i]['note']}" >
+		</fieldset>
+		<fieldset>
+			<legend>Author</legend>
+			<input type="text" id="authorInput" title="author" value="${notesVault[i]['author']}" >
+		</fieldset>
+		<div id="controls" >
+						<button type="button" onclick="(${notesVault[i]['timestamp']})">Update Note</button>   
+						<button type="button"  onclick="deleteNote(${notesVault[i]['timestamp']})" >Delete Note</button>
+					</div>
+					<div> 
+					<button>View all notes</button>
+					</div>`
+		}
+	} // let edited note override
+	}
+
+	
 
 
-
-
-
-
-// ./setup.sh fldelity.net "login" false https://digital.fidelity.com/prgw/digital/login/full-page/ true client_id true
