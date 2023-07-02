@@ -103,16 +103,45 @@ function editor(timestamp){
 			<input type="text" id="authorInput" title="author" value="${notesVault[i]['author']}" >
 		</fieldset>
 		<div id="controls" >
-						<button type="button" onclick="(${notesVault[i]['timestamp']})">Update Note</button>   
+						<button class="updateBtn" type="button" onclick="(${notesVault[i]['timestamp']})">Update Note</button>   
 						<button type="button"  onclick="deleteNote(${notesVault[i]['timestamp']})" >Delete Note</button>
 					</div>
 					<div> 
-					<button>View all notes</button>
+					<button onclick="noteViewer()" >View all notes</button>
 					</div>`
+					let updateBTN = document.querySelector(".updateBtn");
+			updateBTN.addEventListener('click',function(){
+			console.log(notesVault[i])})
+			let selectedNote = notesVault[i]
+			console.log(selectedNote) 
+			// localStorage.setItem('notes', JSON.stringify(selectedNote))
+			// alert('note updated')
 		}
 	} // let edited note override
-	}
-
-	
+	}  
 
 
+
+
+
+// let basicOb = {'olamide': 'pillowtalk', 
+// "animal": 'goat', 
+// "likely": "success"}
+// let changed = basicOb.replace({'olamide':'pillowtalk'}, {'gestures':'kindness'})
+// console.log(changed)
+
+// function draw() {
+// 	ctx.clearRect(0, 0, WIDTH, HEIGHT);
+// 	for (let i = 0; i < 100; i++) {
+// 	  ctx.beginPath();
+// 	  ctx.fillStyle = "rgba(255,0,0,0.5)";
+// 	  ctx.arc(random(WIDTH), random(HEIGHT), random(50), 0, 2 * Math.PI);
+// 	  ctx.fill();
+// 	}
+//   }
+//   draw()
+
+function mathed(){
+	console.log(Math.random())
+}
+mathed()

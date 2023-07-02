@@ -1,0 +1,18 @@
+#wrapper {
+  background-color: palegreen;
+  color: rebeccapurple;
+}
+
+#navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+}
+
+body {
+  background-color: rebeccapurple;
+}/*# sourceMappingURL=sas.css.map */
