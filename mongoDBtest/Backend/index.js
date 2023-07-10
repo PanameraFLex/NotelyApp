@@ -6,7 +6,7 @@ const server = express();
 const PORT = 2890;
 
 // initializing mongodb services 
-const mongoClient = new mongodb.MongoClient("mongodb+srv://chux-user7:4FU9OJ8t1rroUfFW@cluster0.ia2wbht.mongodb.net/?retryWrites=true&w=majority");
+const mongoClient = new mongodb.MongoClient(); // include Database URI here <<<<<
 
 server.use(cors());
 server.use(express.json());
