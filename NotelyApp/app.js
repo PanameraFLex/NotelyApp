@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const fs = require('fs').promises;
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
@@ -9,6 +10,7 @@ const port = 3000;
 const dataPath = path.join(__dirname, 'notes.json');
 
 // Middleware
+app.use(cors());
 app.use(bodyParser.json());
 
 async function readNotes() {
