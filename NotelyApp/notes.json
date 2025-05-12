@@ -26,5 +26,19 @@
     "content": "Martin Lawrence, John Rockefeller, Mark Twain, Billy Verjans, Susie Cappuci, Leonardo Dicaprio, Al Pacino, Jason Statham, Bruce Willis, Wesley Snipes",
     "createdAt": "2025-05-12T00:23:15.377Z",
     "updatedAt": "2025-05-12T00:39:50.896Z"
+  },
+  {
+    "id": "0b9eabc7-55c5-45f1-bfbe-1bccf339073d",
+    "title": "Book Authors",
+    "content": "Mark Twain, Sun Tzu, James Clear, Chinua Achebe, Robert Kayosaki, Dale Carnegie",
+    "createdAt": "2025-05-12T18:58:13.757Z",
+    "updatedAt": "2025-05-12T18:58:13.760Z"
+  },
+  {
+    "id": "1f3e591b-c2a4-4ecd-bc93-accf31e773fb",
+    "title": "Solid colors",
+    "content": "black, gray, blue, dark green, burgundy, white, tan",
+    "createdAt": "2025-05-12T19:01:27.793Z",
+    "updatedAt": "2025-05-12T19:01:27.797Z"
   }
 ]

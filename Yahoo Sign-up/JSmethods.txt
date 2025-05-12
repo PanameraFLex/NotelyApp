@@ -1,4 +1,0 @@
-document.querySelector =  Selects elements as HTML node collection //  document.querySelector(".lipo")// this selects the HTML element with class name lipo
-localStorage.getItem =  retrives item from localStorage
-JSON.Stringify() = returns items as string
-JSON.parse() = gets the real data from localStorage
