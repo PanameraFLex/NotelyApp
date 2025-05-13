@@ -28,6 +28,23 @@
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+.note-card:hover{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  cursor:grab;
+}
+.note-card:hover .note-actions{
+  display: flex;
+}
+
+.note-actions{
+  /* display: none; */
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  gap: 8px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
