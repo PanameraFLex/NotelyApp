@@ -5,6 +5,7 @@ import NoteCard from './components/NoteCard';
 import './App.css';
 import CreateNote from './components/CreateNote';
 
+
 function Home({notes}) {
   const navigate = useNavigate();
   return(
