@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-route
 import NoteDetail from './components/NoteDetail';
 import NoteCard from './components/NoteCard';
 import './App.css';
+import CreateNote from './components/CreateNote';
 
 function Home({notes}) {
   const navigate = useNavigate();
@@ -32,6 +33,7 @@ function App() {
       <Routes>
           <Route path='/' element={<Home notes={notes} />}/>
           <Route path='/notes/:id' element={<NoteDetail />}/>
+          <Route path='/create' element={<CreateNote />} />
     </Routes>
     </Router>
   )

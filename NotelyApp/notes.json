@@ -40,5 +40,12 @@
     "content": "black, gray, blue, dark green, burgundy, white, tan",
     "createdAt": "2025-05-12T19:01:27.793Z",
     "updatedAt": "2025-05-12T19:01:27.797Z"
+  },
+  {
+    "id": "85d73bd8-ed4b-40c3-a565-31ea70a245ce",
+    "title": "Gifts",
+    "content": "Fruits, scents, books, wine, tickets",
+    "createdAt": "2025-05-13T11:52:44.336Z",
+    "updatedAt": "2025-05-13T11:52:44.336Z"
   }
 ]
